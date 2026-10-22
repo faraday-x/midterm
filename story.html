@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OASIS ARCHIVE - Story</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="poster-navbar">
+    <div class="nav-left-brand">
+      <img src="image/Oasis_Logo.png" alt="oasis logo" class="nav-oasis-logo" />
+      <div class="nav-brand-text">
+        <span class="nav-brand-title">OASIS COLLECTION</span>
+        <span class="nav-brand-sub">MUSIC / MEMORIES / FOREVER</span>
+      </div>
+    </div>
+
+    <nav class="poster-nav-links">
+      <a href="index.html">HOME</a>
+      <a href="story.html" class="active">STORY</a>
+      <a href="collection.html">COLLECTION</a>
+      <a href="about.html">ABOUT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section story-section">
+      <div class="system-filter-pills" id="storyFilterBar">
+        <button class="pill active" data-filter="all">[ ALL OASIS GEAR ]</button>
+        <button class="pill tilt-left" data-filter="vinyl">[ VINYL & CDS ]</button>
+        <button class="pill tilt-right" data-filter="tour">[ TOUR & POSTERS ]</button>
+        <button class="pill tilt-left" data-filter="gear">[ GEAR & MEMORABILIA ]</button>
+        <button class="pill tilt-right" data-filter="1994">[ 1994 ]</button>
+        <button class="pill tilt-left" data-filter="1995">[ 1995 ]</button>
+        <button class="pill tilt-right" data-filter="1996">[ 1996 ]</button>
+        <button class="pill tilt-left" data-filter="1997">[ 1997 ]</button>
+      </div>
+
+      <div class="scatter-grid" id="storyScatterGrid">
+        <div class="item-card tilt-item-1" data-category="vinyl" data-year="1994">
+          <span class="tape tape-1"></span>
+          <div class="polaroid-photo has-img">
+            <img src="image/DEFINITELY MAYBE (1994 LP).png" alt="Definitely Maybe (1994 LP)" class="polaroid-img contain-img" />
+          </div>
+          <div class="card-meta-tag">
+            <span class="tag-pill">VINYL LP</span>
+            <span class="tag-pill tag-year">1994</span>
+          </div>
+          <div class="wireframe-text item-caption">#01 DEFINITELY MAYBE LP</div>
+          <div class="card-sub-desc">Debut Masterpiece • Creation Records</div>
+          <a href="collection.html#definitely-maybe" class="card-view-btn">VIEW DETAILS &rarr;</a>
+        </div>
+
+        <div class="item-card tilt-item-2" data-category="vinyl" data-year="1995">
+          <span class="pin"></span>
+          <div class="polaroid-photo has-img">
+            <img src="image/[ MORNING GLORY (1995 LP) ].png" alt="(What's the Story) Morning Glory? (1995 LP)" class="polaroid-img contain-img" />
+          </div>
+          <div class="card-meta-tag">
+            <span class="tag-pill">VINYL LP</span>
+            <span class="tag-pill tag-year">1995</span>
+          </div>
+          <div class="wireframe-text item-caption">#02 MORNING GLORY LP</div>
+          <div class="card-sub-desc">22M+ Copies Sold Worldwide</div>
+          <a href="collection.html#morning-glory" class="card-view-btn">VIEW DETAILS &rarr;</a>
+        </div>
+
+        <div class="item-card tilt-item-3" data-category="tour" data-year="1996">
+          <span class="tape tape-2"></span>
+          <div class="polaroid-photo has-img">
+            <img src="image/[ KNEBWORTH 1996 TICKET ].png" alt="Knebworth 1996 Ticket Stub" class="polaroid-img contain-img" />
+          </div>
+          <div class="card-meta-tag">
+            <span class="tag-pill">TICKET</span>
+            <span class="tag-pill tag-year">1996</span>
+          </div>
+          <div class="wireframe-text item-caption">#03 KNEBWORTH '96 TICKET</div>
+          <div class="card-sub-desc">Original August 10 Stub • 250k Fans</div>
+          <a href="collection.html#knebworth-ticket" class="card-view-btn">VIEW DETAILS &rarr;</a>
+        </div>
+
+        <div class="item-card tilt-item-4" data-category="vinyl" data-year="1995">
+          <span class="tape tape-1"></span>
+          <div class="polaroid-photo has-img">
+            <img src="image/WONDERWALL SINGLE CD.png" alt="Wonderwall Single CD" class="polaroid-img contain-img" />
+          </div>
+          <div class="card-meta-tag">
+            <span class="tag-pill">CD SINGLE</span>
+            <span class="tag-pill tag-year">1995</span>
+          </div>
+          <div class="wireframe-text item-caption">#04 WONDERWALL CD</div>
+          <div class="card-sub-desc">Global Britpop Anthem • Creation CDS</div>
+          <a href="collection.html#wonderwall-cd" class="card-view-btn">VIEW DETAILS &rarr;</a>
+        </div>
+
+        <div class="item-card tilt-item-5" data-category="tour" data-year="1996">
+          <span class="pin"></span>
+          <div class="polaroid-photo has-img">
+            <img src="image/MAINE ROAD '96 POSTER.png" alt="Maine Road '96 Poster" class="polaroid-img contain-img" />
+          </div>
+          <div class="card-meta-tag">
+            <span class="tag-pill">TOUR POSTER</span>
+            <span class="tag-pill tag-year">1996</span>
+          </div>
+          <div class="wireframe-text item-caption">#05 MAINE ROAD '96 POSTER</div>
+          <div class="card-sub-desc">Man City Stadium Homecoming Gig</div>
+          <a href="collection.html#maine-road-poster" class="card-view-btn">VIEW DETAILS &rarr;</a>
+        </div>
+
+        <div class="item-card tilt-item-6" data-category="gear" data-year="1996">
+          <span class="tape tape-1"></span>
+          <div class="polaroid-photo has-img">
+            <img src="image/Epiphone Union Jack Sheraton.png" alt="Noel's Epiphone Union Jack Sheraton" class="polaroid-img contain-img" />
+          </div>
+          <div class="card-meta-tag">
+            <span class="tag-pill">GUITAR / GEAR</span>
+            <span class="tag-pill tag-year">1996</span>
+          </div>
+          <div class="wireframe-text item-caption">#06 UNION JACK GUITAR</div>
+          <div class="card-sub-desc">Noel's Epiphone Sheraton Custom</div>
+          <a href="collection.html#union-jack-guitar" class="card-view-btn">VIEW DETAILS &rarr;</a>
+        </div>
+
+        <div class="item-card tilt-item-7" data-category="gear" data-year="1996">
+          <span class="tape tape-2"></span>
+          <div class="polaroid-photo has-img">
+            <img src="image/LIAM'S ROUND SHADES.png" alt="Liam's Vintage Round Shades" class="polaroid-img contain-img" />
+          </div>
+          <div class="card-meta-tag">
+            <span class="tag-pill">EYEWEAR</span>
+            <span class="tag-pill tag-year">1996</span>
+          </div>
+          <div class="wireframe-text item-caption">#07 LIAM'S ROUND SHADES</div>
+          <div class="card-sub-desc">Iconic 90s Tinted Mod Eyewear</div>
+          <a href="collection.html#round-shades" class="card-view-btn">VIEW DETAILS &rarr;</a>
+        </div>
+
+        <div class="item-card tilt-item-8" data-category="vinyl" data-year="1997">
+          <span class="pin"></span>
+          <div class="polaroid-photo has-img">
+            <img src="image/BE HERE NOW CASSETTE.png" alt="Be Here Now Cassette Tape" class="polaroid-img contain-img" />
+          </div>
+          <div class="card-meta-tag">
+            <span class="tag-pill">CASSETTE</span>
+            <span class="tag-pill tag-year">1997</span>
+          </div>
+          <div class="wireframe-text item-caption">#08 BE HERE NOW CASSETTE</div>
+          <div class="card-sub-desc">Creation Records C-CRE 219 Tape</div>
+          <a href="collection.html#be-here-now-cassette" class="card-view-btn">VIEW DETAILS &rarr;</a>
+        </div>
+
+        <div class="item-card tilt-item-9" data-category="gear" data-year="1994">
+          <span class="tape tape-1"></span>
+          <div class="polaroid-photo has-img">
+            <img src="image/Oasis_brand_photo.png" alt="Oasis in NYC (1994)" class="polaroid-img" />
+          </div>
+          <div class="card-meta-tag">
+            <span class="tag-pill">PHOTO PRINT</span>
+            <span class="tag-pill tag-year">1994</span>
+          </div>
+          <div class="wireframe-text item-caption">#09 OASIS IN NYC (1994)</div>
+          <div class="card-sub-desc">Early US Tour Promo Photograph</div>
+          <a href="collection.html#definitely-maybe" class="card-view-btn">VIEW DETAILS &rarr;</a>
+        </div>
+
+        <div class="item-card tilt-item-10" data-category="tour" data-year="1996">
+          <span class="pin"></span>
+          <div class="polaroid-photo has-img">
+            <img src="image/live_concert_shot.png" alt="Oasis Live On Stage" class="polaroid-img" />
+          </div>
+          <div class="card-meta-tag">
+            <span class="tag-pill">LIVE SHOT</span>
+            <span class="tag-pill tag-year">1996</span>
+          </div>
+          <div class="wireframe-text item-caption">#10 LIVE ON STAGE (1996)</div>
+          <div class="card-sub-desc">Stage Fireworks & Wall of Amps</div>
+          <a href="collection.html#maine-road-poster" class="card-view-btn">VIEW DETAILS &rarr;</a>
+        </div>
+      </div>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const filterPills = document.querySelectorAll('#storyFilterBar .pill');
+          const cards = document.querySelectorAll('#storyScatterGrid .item-card');
+
+          filterPills.forEach(pill => {
+            pill.addEventListener('click', () => {
+              filterPills.forEach(p => p.classList.remove('active'));
+              pill.classList.add('active');
+
+              const filterValue = pill.getAttribute('data-filter');
+
+              cards.forEach(card => {
+                const category = card.getAttribute('data-category');
+                const year = card.getAttribute('data-year');
+
+                if (filterValue === 'all') {
+                  card.classList.remove('is-hidden');
+                } else if (filterValue === category) {
+                  card.classList.remove('is-hidden');
+                } else if (filterValue === year) {
+                  card.classList.remove('is-hidden');
+                } else {
+                  card.classList.add('is-hidden');
+                }
+              });
+            });
+          });
+        });
+      </script>
+
+      <div class="page-switch-bar">
+        <a href="index.html" class="page-btn">&larr; PREV: HOME</a>
+        <a href="collection.html" class="page-btn">NEXT: COLLECTION SPOTLIGHT &rarr;</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
